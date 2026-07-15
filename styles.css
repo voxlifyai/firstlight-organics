@@ -275,6 +275,14 @@ footer{ background:var(--charcoal); color:var(--taupe); padding:64px 48px 40px; 
 /* ── GUIDE CLOSE ── */
 .guide-closing{ margin-top:52px; padding:36px 40px; border:1px solid var(--g-dim); background:var(--ivory); font-size:14px; line-height:1.95; color:var(--taupe); font-style:italic; }
 
+/* ── PRODUCT FEATURE (single-product layout) ── */
+.product-feature{ display:grid; grid-template-columns:1fr 1fr; gap:72px; align-items:center; max-width:960px; margin:0 auto; }
+.product-feature-img{ width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:3px; display:block; }
+.product-feature-label{ font-size:10px; letter-spacing:0.26em; text-transform:uppercase; color:var(--gold); margin-bottom:10px; }
+.product-feature-name{ font-family:var(--serif); font-size:clamp(32px,4vw,52px); font-weight:300; letter-spacing:0.06em; color:var(--charcoal); margin-bottom:6px; }
+.product-feature-desc{ font-size:14px; line-height:1.9; color:var(--taupe); margin-top:20px; }
+@media(max-width:700px){ .product-feature{ grid-template-columns:1fr; gap:36px; } }
+
 /* ── IMAGES ── */
 .nav-logo-img{ height:50px; width:auto; display:block; }
 .product-photo{ width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:3px; margin-bottom:24px; display:block; }
