@@ -1,6 +1,6 @@
 /* ── TOKENS ── */
 :root{
-  --cream:#FEF9F1; --ivory:#EFE4D5; --gold:#B88A2B;
+  --cream:#FEF9F1; --ivory:#BDA78F; --gold:#B88A2B;
   --g-dim:rgba(184,138,43,0.18); --charcoal:#262626;
   --taupe:#BDA78F; --brown:#8B6A45;
   --serif:'Cormorant Garamond','Cormorant',Georgia,'Times New Roman',serif;
@@ -10,7 +10,7 @@
 @media(prefers-color-scheme:dark){
   :root{ --cream:#1C1813; --ivory:#251E18; --charcoal:#EFE4D5; --taupe:#9A7A5A; --g-dim:rgba(184,138,43,0.14); }
 }
-:root[data-theme="light"]{ --cream:#F7F2EB; --ivory:#EFE4D5; --charcoal:#262626; --taupe:#BDA78F; --g-dim:rgba(184,138,43,0.18); }
+:root[data-theme="light"]{ --cream:#F7F2EB; --ivory:#BDA78F; --charcoal:#262626; --taupe:#BDA78F; --g-dim:rgba(184,138,43,0.18); }
 :root[data-theme="dark"] { --cream:#1C1813; --ivory:#251E18; --charcoal:#EFE4D5; --taupe:#9A7A5A; --g-dim:rgba(184,138,43,0.14); }
 
 /* ── RESET ── */
