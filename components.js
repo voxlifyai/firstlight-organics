@@ -26,9 +26,7 @@ const NAV_HTML = `<nav>
     <li><a href="learn.html">Learn</a></li>
   </ul>
   <a class="nav-logo" href="index.html">
-    <svg width="34" height="22" style="opacity:0.6"><use href="#sun"/></svg>
-    <span class="nav-wordmark">First Light</span>
-    <span class="nav-sub">Organics</span>
+    <img src="images/logo.png" alt="First Light Organics" class="nav-logo-img">
   </a>
   <ul class="nav-links">
     <li><a href="about.html">About</a></li>

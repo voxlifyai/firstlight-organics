@@ -275,9 +275,19 @@ footer{ background:var(--charcoal); color:var(--taupe); padding:64px 48px 40px; 
 /* ── GUIDE CLOSE ── */
 .guide-closing{ margin-top:52px; padding:36px 40px; border:1px solid var(--g-dim); background:var(--ivory); font-size:14px; line-height:1.95; color:var(--taupe); font-style:italic; }
 
+/* ── IMAGES ── */
+.nav-logo-img{ height:50px; width:auto; display:block; }
+.product-photo{ width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:3px; margin-bottom:24px; display:block; }
+.brand-photo-banner{ overflow:hidden; line-height:0; }
+.brand-photo-banner img{ width:100%; max-height:560px; object-fit:cover; object-position:center 35%; display:block; }
+.story-split{ display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start; max-width:1000px; margin:0 auto; }
+.story-split img{ width:100%; border-radius:3px; display:block; aspect-ratio:3/4; object-fit:cover; }
+.ingredients-banner-img{ width:100%; max-width:900px; display:block; margin:0 auto 52px; }
+
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
   nav{ padding:0 24px; }
+  .story-split{ grid-template-columns:1fr; }
   .features-grid{ grid-template-columns:repeat(2,1fr); }
   .tallow-content{ grid-template-columns:1fr; }
   .ingr-grid{ grid-template-columns:repeat(3,1fr); }
