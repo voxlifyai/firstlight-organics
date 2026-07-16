@@ -38,8 +38,9 @@ const NAV_HTML = `<nav>
 const FOOTER_HTML = `<footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <svg width="36" height="22" style="opacity:0.55"><use href="#sun"/></svg>
-      <div class="footer-wordmark">First Light Organics</div>
+      <a href="index.html" class="footer-logo-wrap">
+        <img src="images/logo-alt.png" alt="First Light Organics" class="footer-logo-img">
+      </a>
       <div class="footer-tagline">Handcrafted in Boise, Idaho</div>
       <div class="footer-scripture">"...by which the sunrise shall visit us from on high." Luke 1:78</div>
     </div>

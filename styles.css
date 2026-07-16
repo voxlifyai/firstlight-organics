@@ -259,7 +259,8 @@ section{ padding:96px 48px; }
 footer{ background:var(--charcoal); color:var(--cream); padding:64px 48px 40px; }
 .footer-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:40px; margin-bottom:52px; flex-wrap:wrap; }
 .footer-brand{ display:flex; flex-direction:column; align-items:flex-start; gap:12px; max-width:220px; }
-.footer-wordmark{ font-family:var(--serif); font-size:18px; font-weight:400; letter-spacing:0.28em; text-transform:uppercase; color:rgba(239,228,213,0.85); }
+.footer-logo-wrap{ display:inline-block; background:var(--cream); padding:12px 20px; border-radius:2px; }
+.footer-logo-img{ height:56px; width:auto; display:block; }
 .footer-tagline{ font-size:11px; letter-spacing:0.16em; color:rgba(189,167,143,0.55); }
 .footer-scripture{ font-family:var(--serif); font-size:13px; font-style:italic; color:rgba(184,138,43,0.6); line-height:1.7; }
 .footer-nav{ display:flex; gap:56px; flex-wrap:wrap; }
