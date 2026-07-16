@@ -49,7 +49,6 @@ const FOOTER_HTML = `<footer>
         <ul>
           <li><a href="shop.html">All Products</a></li>
           <li><a href="shop.html">Lavender Balm</a></li>
-          <li><a href="shop.html">Cedar Balm</a></li>
         </ul>
       </div>
       <div class="footer-col">
