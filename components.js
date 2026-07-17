@@ -23,16 +23,11 @@ const NAV_HTML = `<nav>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="shop.html">Shop</a></li>
-    <li><a href="learn.html">Learn</a></li>
   </ul>
   <a class="nav-logo" href="index.html">
     <img src="images/logo.png" alt="First Light Organics" class="nav-logo-img">
   </a>
-  <ul class="nav-links">
-    <li><a href="about.html">About</a></li>
-    <li><a href="reviews.html">Reviews</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+  <ul class="nav-links"></ul>
 </nav>`;
 
 const FOOTER_HTML = `<footer>
@@ -50,32 +45,6 @@ const FOOTER_HTML = `<footer>
         <ul>
           <li><a href="shop.html">All Products</a></li>
           <li><a href="shop.html">Lavender Balm</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Learn</h4>
-        <ul>
-          <li><a href="learn.html#why-tallow">Why Tallow?</a></li>
-          <li><a href="learn.html#ingredients">Our Ingredients</a></li>
-          <li><a href="learn.html#process">Our Process</a></li>
-          <li><a href="learn.html#faq">FAQ</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>About</h4>
-        <ul>
-          <li><a href="about.html">Our Story</a></li>
-          <li><a href="about.html#standards">Our Standards</a></li>
-          <li><a href="about.html#philosophy">Our Philosophy</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Help</h4>
-        <ul>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="reviews.html">Reviews</a></li>
-          <li><a href="#">Shipping Policy</a></li>
-          <li><a href="#">Return Policy</a></li>
         </ul>
       </div>
     </div>
