@@ -105,17 +105,48 @@ Logo images (`logo.png`, `logo-alt.png`) have cream backgrounds — they cannot 
 ## Product status
 
 **Current products: Lavender Whipped Tallow Balm only.**
+**Price: $29.00** (4 fl oz jar, 2.35 oz net wt)
 
 Cedar Balm was removed. Do not add Cedar back or reference it anywhere. If adding new scents in the future, add them to shop.html as additional `.product-feature` blocks and update the footer nav under "Shop."
 
+## Primary customer
+
+Ingredient-conscious women who want effective, nourishing skincare without unnecessarily complicated formulas. She reads labels. She values transparency. She appreciates locally sourced and handcrafted products. She is not necessarily looking for "tallow skincare" -- she is looking for skincare she can trust.
+
+## Messaging hierarchy (use this order)
+
+1. **Purity** -- Know what you're putting on your skin.
+2. **Benefit** -- Deeply nourishing moisture.
+3. **Simplicity** -- Thoughtfully selected ingredients, nothing unnecessarily complicated.
+4. **Craftsmanship** -- Handcrafted in small batches by our family.
+5. **Local story** -- Made in Boise with locally sourced Treasure Valley tallow.
+
+## Signature phrases
+
+- Know what you're putting on your skin.
+- Pure ingredients. Thoughtfully made.
+- Simple ingredients. Deeply nourishing skincare.
+- Skincare, simplified.
+- Made close to home. Crafted with care.
+- From the Treasure Valley to your skin.
+- Nothing unnecessarily complicated.
+- Ingredients chosen with intention.
+
+## Origin story (for copy reference)
+
+Tatiana (Tim's wife) made the first batch for their family in their Boise kitchen. They live in the high desert where the air dries out skin fast. She wanted simple, real ingredients she could trust. Shared with friends, then friends of friends. Two local stores agreed to stock it within two days of each other. Named First Light after Luke 1:78, which calls Jesus the "Sunrise from on high." The name is about him.
+
 ## Brand voice rules
 
-1. **Never use em dashes (—)**. This is a hard rule. Use a comma, a period, or rewrite the sentence instead. Em dashes are a clear AI writing signal that Tim has flagged repeatedly.
-2. Tone: warm, clean, honest, grounded. Faith-adjacent but never preachy.
+1. **Never use em dashes (—)**. This is a hard rule. Use a comma, a period, or rewrite the sentence instead.
+2. Tone: warm, confident, simple, premium, grounded. Faith is present but not preachy.
 3. Copy should be simple enough that a grandmother recognizes every word.
-4. Avoid marketing buzzwords and synthetic-sounding superlatives.
-5. Idaho and "handcrafted in Boise" appear throughout — this is intentional brand identity.
-6. The scripture reference (Luke 1:78) appears in the footer and the homepage Our Story section — do not remove it.
+4. **Avoid fear-based messaging** about conventional skincare. Do not call ingredients "toxic." Do not frame competitors negatively. Make customers feel informed and confident, not afraid.
+5. Avoid overly "crunchy" or niche language that limits the brand's broad appeal.
+6. No unsubstantiated health or medical claims.
+7. Idaho, "handcrafted in Boise," and "Treasure Valley tallow" appear throughout -- this is intentional brand identity.
+8. The scripture reference (Luke 1:78) appears in the footer and the homepage Our Story section -- do not remove it.
+9. The name First Light is explicitly about Jesus. This is stated on the About page.
 
 ## Known gotchas
 
