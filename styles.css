@@ -137,7 +137,7 @@ section{ padding:96px 48px; }
 .ingr-desc{ font-size:11px; line-height:1.8; color:var(--charcoal); }
 
 /* ── REVIEWS ── */
-.reviews-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; max-width:960px; margin:0 auto; }
+.reviews-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:24px; max-width:960px; margin:0 auto; }
 .reviews-page-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; max-width:960px; margin:0 auto; }
 .review-card{ padding:36px 28px; border:1px solid var(--g-dim); display:flex; flex-direction:column; gap:16px; }
 .review-stars{ color:var(--gold); font-size:13px; letter-spacing:2px; }
