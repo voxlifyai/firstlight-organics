@@ -55,10 +55,6 @@ section{ padding:96px 48px; }
 .s-rule{ display:flex; align-items:center; gap:12px; width:fit-content; margin:0 auto 52px; }
 .s-rule::before,.s-rule::after{ content:''; width:32px; height:1px; background:var(--gold); opacity:0.38; }
 .s-rule span{ color:var(--gold); font-size:12px; }
-.ornament-img{ height:18px; width:auto; max-width:240px; display:block; mix-blend-mode:multiply; }
-.s-rule:has(.ornament-img),.rule:has(.ornament-img){ gap:0; }
-.s-rule:has(.ornament-img)::before,.s-rule:has(.ornament-img)::after,
-.rule:has(.ornament-img)::before,.rule:has(.ornament-img)::after{ display:none; }
 .s-prose{ max-width:640px; margin:0 auto; font-size:15px; line-height:1.9; color:var(--charcoal); text-align:center; }
 
 /* ── PAGE HERO (inner pages) ── */
@@ -101,7 +97,6 @@ section{ padding:96px 48px; }
 .features-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:1px; max-width:960px; margin:0 auto; background:var(--g-dim); }
 .feature{ background:var(--cream); text-align:center; padding:40px 24px; }
 .feature-icon{ font-size:18px; margin-bottom:16px; display:block; color:var(--gold); }
-img.feature-icon{ width:60px; height:60px; display:block; margin:0 auto 16px; mix-blend-mode:multiply; font-size:0; }
 .feature-title{ font-family:var(--serif); font-size:18px; font-weight:300; letter-spacing:0.06em; color:var(--charcoal); margin-bottom:10px; }
 .feature-text{ font-size:12px; line-height:1.8; color:var(--charcoal); }
 
