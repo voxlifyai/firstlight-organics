@@ -104,10 +104,10 @@ Logo images (`logo.png`, `logo-alt.png`) have cream backgrounds — they cannot 
 
 ## Product status
 
-**Current products: Lavender Whipped Tallow Balm only.**
-**Price: $29.00** (4 fl oz jar, 2.35 oz net wt)
+**Current products: Lavender, Cedar, Warm Vanilla Whipped Tallow Balm.**
+**Price: $29.00 each** (4 fl oz jar, 2.35 oz net wt)
 
-Cedar Balm was removed. Do not add Cedar back or reference it anywhere. If adding new scents in the future, add them to shop.html as additional `.product-feature` blocks and update the footer nav under "Shop."
+To add new scents in the future, add them to shop.html as additional `.product-feature` blocks and update the footer nav under "Shop." Alternate section backgrounds (cream / ivory) to maintain visual rhythm.
 
 ## Primary customer
 
