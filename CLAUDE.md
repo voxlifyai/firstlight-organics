@@ -66,10 +66,13 @@ JS routing via `showLearn(id, e)`. Section IDs: `learn-why-tallow`, `learn-ingre
 
 | File | Used on | Description |
 |------|---------|-------------|
-| `logo.png` | Nav (all pages) | Full horizontal wordmark, cream background |
-| `logo-alt.png` | Footer (all pages) | Alternate logo variant, cream background |
-| `icon-sun.png` | Homepage hero, favicon (all pages) | Sun rays icon only, gold on cream |
+| `logo.png` | Nav (all pages) | Full horizontal wordmark, transparent background |
+| `logo-alt.png` | Footer (all pages) | Full horizontal wordmark, transparent background (same as logo.png) |
+| `logo-monogram.png` | Not currently placed | FL monogram with sunburst, transparent background |
+| `icon-sun.png` | Homepage hero, favicon (all pages) | Half-sun sunburst icon, transparent background |
 | `product-hand.png` | index.html, shop.html | Hand holding labeled Lavender jar |
+| `product-cedar.png` | shop.html | Hand holding Cedar jar |
+| `product-vanilla.png` | shop.html | Hand holding Warm Vanilla jar |
 | `product-group.png` | index.html banner | 4-jar styled group shot |
 | `lifestyle-face.png` | index.html Our Story split | Person applying balm to face |
 | `about-hero.png` | about.html banner | Idaho sunrise landscape |
@@ -82,7 +85,7 @@ JS routing via `showLearn(id, e)`. Section IDs: `learn-why-tallow`, `learn-ingre
 
 **Always check this inventory before referencing an image path. Do not invent filenames.**
 
-Logo images (`logo.png`, `logo-alt.png`) have cream backgrounds — they cannot be used directly on the dark footer or any dark background. The footer wraps `logo-alt.png` in a `.footer-logo-wrap` cream card to handle this. `icon-sun.png` also has a cream background.
+Logo images are now transparent. The `.footer-logo-wrap` no longer applies a cream background.
 
 ## CSS class reference (key classes)
 
