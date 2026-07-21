@@ -25,7 +25,8 @@ const NAV_HTML = `<nav>
     <li><a href="shop.html">Shop</a></li>
   </ul>
   <a class="nav-logo" href="index.html">
-    <img src="images/logo.png" alt="First Light Organics" class="nav-logo-img">
+    <img src="images/logo.png" alt="First Light Organics" class="nav-logo-img nav-logo-light">
+    <img src="images/logo-white.png" alt="" class="nav-logo-img nav-logo-dark">
   </a>
   <ul class="nav-links">
     <li><a href="about.html">About</a></li>
@@ -36,7 +37,7 @@ const FOOTER_HTML = `<footer>
   <div class="footer-top">
     <div class="footer-brand">
       <a href="index.html" class="footer-logo-wrap">
-        <img src="images/logo-alt.png" alt="First Light Organics" class="footer-logo-img">
+        <img src="images/logo-white.png" alt="First Light Organics" class="footer-logo-img">
       </a>
       <div class="footer-tagline">Handcrafted in Boise, Idaho</div>
       <div class="footer-scripture">"...by which the sunrise shall visit us from on high." Luke 1:78</div>
