@@ -25,7 +25,8 @@ nav{
   padding:0 52px; height:72px;
   background:var(--cream); border-bottom:1px solid var(--g-dim);
 }
-.nav-links{ display:flex; gap:36px; list-style:none; }
+.nav-links{ display:flex; gap:36px; list-style:none; flex:1; }
+nav .nav-links:last-child{ justify-content:flex-end; }
 .nav-links a{
   font-size:10px; letter-spacing:0.18em; text-transform:uppercase;
   color:var(--charcoal); text-decoration:none; opacity:0.55;
