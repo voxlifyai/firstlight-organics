@@ -27,7 +27,9 @@ const NAV_HTML = `<nav>
   <a class="nav-logo" href="index.html">
     <img src="images/logo.png" alt="First Light Organics" class="nav-logo-img">
   </a>
-  <ul class="nav-links"></ul>
+  <ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+  </ul>
 </nav>`;
 
 const FOOTER_HTML = `<footer>
@@ -47,10 +49,18 @@ const FOOTER_HTML = `<footer>
           <li><a href="shop.html">Lavender Balm</a></li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2025 First Light Organics. All rights reserved. Handcrafted in Boise, Idaho.</span>
+    <span>&copy; 2026 First Light Organics. All rights reserved. Handcrafted in Boise, Idaho.</span>
     <span style="display:flex;gap:24px">
       <a href="#">Privacy Policy</a>
       <a href="#">Terms</a>
