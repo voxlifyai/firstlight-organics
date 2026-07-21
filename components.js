@@ -96,9 +96,31 @@ function shopClick(e, name) {
 }
 
 // Newsletter handler
-function handleNewsletter(e) {
+async function handleNewsletter(e) {
   e.preventDefault();
-  e.target.innerHTML = '<p style="font-size:13px;letter-spacing:0.08em;color:var(--gold)">Thank you. We\'ll be in touch.</p>';
+  const form = e.target;
+  const email = form.querySelector('input[type="email"]').value;
+  const btn = form.querySelector('button');
+  btn.disabled = true;
+  btn.textContent = 'Subscribing...';
+
+  try {
+    const res = await fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email })
+    });
+    if (res.ok) {
+      form.innerHTML = '<p style="font-size:13px;letter-spacing:0.08em;color:var(--gold)">Thank you. We\'ll be in touch.</p>';
+    } else {
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+      form.insertAdjacentHTML('beforeend', '<p style="font-size:12px;color:#c0392b;margin-top:10px">Something went wrong. Please try again.</p>');
+    }
+  } catch {
+    btn.disabled = false;
+    btn.textContent = 'Subscribe';
+  }
 }
 
 // Contact form handler
