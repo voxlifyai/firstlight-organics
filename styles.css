@@ -286,7 +286,7 @@ footer{ background:var(--charcoal); color:var(--cream); padding:64px 48px 40px; 
 @media(max-width:700px){ .product-feature{ grid-template-columns:1fr; gap:36px; } }
 
 /* ── IMAGES ── */
-.nav-logo-img{ height:50px; width:auto; display:block; }
+.nav-logo-img{ height:72px; width:auto; display:block; }
 .nav-logo-dark{ display:none; }
 @media(prefers-color-scheme:dark){
   .nav-logo-light{ display:none; }
