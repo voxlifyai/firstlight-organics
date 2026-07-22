@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@400;500;600&family=Parisienne&display=swap');
+
 /* ── TOKENS ── */
 :root{
   --cream:#FEF9F1; --ivory:#BDA78F; --gold:#B88A2B;
@@ -5,7 +7,7 @@
   --taupe:#BDA78F; --brown:#8B6A45;
   --serif:'Cormorant Garamond','Cormorant',Georgia,'Times New Roman',serif;
   --sans:'Montserrat',system-ui,-apple-system,'Segoe UI',Helvetica,sans-serif;
-  --script:'Allura','Bickham Script Pro','Pinyon Script',cursive;
+  --script:'Parisienne',cursive;
 }
 @media(prefers-color-scheme:dark){
   :root{ --cream:#1C1813; --ivory:#251E18; --charcoal:#EFE4D5; --taupe:#9A7A5A; --g-dim:rgba(184,138,43,0.14); }
