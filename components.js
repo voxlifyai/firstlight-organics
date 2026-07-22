@@ -47,7 +47,9 @@ const FOOTER_HTML = `<footer>
         <h4>Shop</h4>
         <ul>
           <li><a href="shop.html">All Products</a></li>
-          <li><a href="shop.html">Lavender Balm</a></li>
+          <li><a href="shop.html">Lavender</a></li>
+          <li><a href="shop.html">Cedar</a></li>
+          <li><a href="shop.html">Warm Vanilla</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -58,13 +60,22 @@ const FOOTER_HTML = `<footer>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h4>Policies</h4>
+        <ul>
+          <li><a href="https://firstlight-organics.myshopify.com/policies/shipping-policy" target="_blank" rel="noopener">Shipping</a></li>
+          <li><a href="https://firstlight-organics.myshopify.com/policies/refund-policy" target="_blank" rel="noopener">Returns</a></li>
+          <li><a href="https://firstlight-organics.myshopify.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="https://firstlight-organics.myshopify.com/policies/terms-of-service" target="_blank" rel="noopener">Terms of Service</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="footer-bottom">
     <span>&copy; 2026 First Light Organics. All rights reserved. Handcrafted in Boise, Idaho.</span>
     <span style="display:flex;gap:24px">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms</a>
+      <a href="https://firstlight-organics.myshopify.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
+      <a href="https://firstlight-organics.myshopify.com/policies/terms-of-service" target="_blank" rel="noopener">Terms</a>
     </span>
   </div>
 </footer>`;
