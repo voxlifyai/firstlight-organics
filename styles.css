@@ -131,7 +131,7 @@ section{ padding:96px 48px; }
 
 /* ── INGREDIENTS ── */
 .ingredients{ background:var(--ivory); }
-.ingr-grid{ display:grid; grid-template-columns:repeat(5,1fr); gap:2px; max-width:1120px; margin:0 auto; }
+.ingr-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:2px; max-width:900px; margin:0 auto; }
 .ingr-card{ background:var(--cream); padding:40px 16px; text-align:center; }
 .ingr-number{ font-family:var(--serif); font-size:38px; font-weight:300; color:var(--g-dim); line-height:1; margin-bottom:12px; }
 .ingr-name{ font-family:var(--serif); font-size:18px; font-weight:300; letter-spacing:0.06em; color:var(--charcoal); margin-bottom:10px; }
@@ -309,7 +309,7 @@ footer{ background:var(--charcoal); color:var(--cream); padding:64px 48px 40px; 
   .story-split{ grid-template-columns:1fr; }
   .features-grid{ grid-template-columns:repeat(2,1fr); }
   .tallow-content{ grid-template-columns:1fr; }
-  .ingr-grid{ grid-template-columns:repeat(3,1fr); }
+  .ingr-grid{ grid-template-columns:repeat(2,1fr); }
   .reviews-grid,.reviews-page-grid{ grid-template-columns:1fr 1fr; }
   .learn-overview-grid{ grid-template-columns:1fr; }
   .standards-grid{ grid-template-columns:1fr; }
