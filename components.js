@@ -21,7 +21,6 @@ const SUN_SVG = `<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
 
 const NAV_HTML = `<nav>
   <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
     <li><a href="shop.html">Shop</a></li>
   </ul>
   <a class="nav-logo" href="index.html">
@@ -29,7 +28,8 @@ const NAV_HTML = `<nav>
     <img src="images/logo-white.png" alt="" class="nav-logo-img nav-logo-dark">
   </a>
   <ul class="nav-links">
-    <li><a href="about.html">About</a></li>
+    <li><a href="learn.html">Learn</a></li>
+    <li><a href="about.html">Our Story</a></li>
   </ul>
 </nav>`;
 
