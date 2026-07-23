@@ -63,10 +63,10 @@ const FOOTER_HTML = `<footer>
       <div class="footer-col">
         <h4>Policies</h4>
         <ul>
-          <li><a href="https://firstlight-organics.myshopify.com/policies/shipping-policy" target="_blank" rel="noopener">Shipping</a></li>
-          <li><a href="https://firstlight-organics.myshopify.com/policies/refund-policy" target="_blank" rel="noopener">Returns</a></li>
-          <li><a href="https://firstlight-organics.myshopify.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
-          <li><a href="https://firstlight-organics.myshopify.com/policies/terms-of-service" target="_blank" rel="noopener">Terms of Service</a></li>
+          <li><a href="shipping.html">Shipping</a></li>
+          <li><a href="returns.html">Returns</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
         </ul>
       </div>
     </div>
@@ -74,8 +74,8 @@ const FOOTER_HTML = `<footer>
   <div class="footer-bottom">
     <span>&copy; 2026 First Light Organics. All rights reserved. Handcrafted in Boise, Idaho.</span>
     <span style="display:flex;gap:24px">
-      <a href="https://firstlight-organics.myshopify.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
-      <a href="https://firstlight-organics.myshopify.com/policies/terms-of-service" target="_blank" rel="noopener">Terms</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
     </span>
   </div>
 </footer>`;
