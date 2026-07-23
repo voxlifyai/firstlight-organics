@@ -38,16 +38,16 @@
         </div>
       </div>
       <form class="contact-form" onsubmit="handleContact(event)">
-        <input type="text" placeholder="Your name" required>
-        <input type="email" placeholder="Your email" required>
-        <select>
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <select name="subject">
           <option value="" disabled selected>What is this about?</option>
           <option>Product question</option>
           <option>Order inquiry</option>
           <option>Wholesale inquiry</option>
           <option>Other</option>
         </select>
-        <textarea placeholder="Your message" required></textarea>
+        <textarea name="message" placeholder="Your message" required></textarea>
         <button type="submit" class="btn btn-gold" style="border:none">Send Message</button>
       </form>
     </div>

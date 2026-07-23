@@ -135,9 +135,37 @@ async function handleNewsletter(e) {
 }
 
 // Contact form handler
-function handleContact(e) {
+async function handleContact(e) {
   e.preventDefault();
-  e.target.innerHTML = '<p style="font-size:15px;font-family:var(--serif);font-weight:300;color:var(--charcoal)">Thank you for reaching out. We\'ll respond within one business day.</p>';
+  const form = e.target;
+  const btn = form.querySelector('button');
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+
+  const data = {
+    name: form.querySelector('[name="name"]').value,
+    email: form.querySelector('[name="email"]').value,
+    subject: form.querySelector('[name="subject"]').value,
+    message: form.querySelector('[name="message"]').value
+  };
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    if (res.ok) {
+      form.innerHTML = '<p style="font-size:15px;font-family:var(--serif);font-weight:300;color:var(--charcoal)">Thank you for reaching out. We\'ll respond within one business day.</p>';
+    } else {
+      btn.disabled = false;
+      btn.textContent = 'Send Message';
+      form.insertAdjacentHTML('beforeend', '<p style="font-size:12px;color:#c0392b;margin-top:10px">Something went wrong. Please try again or email us directly.</p>');
+    }
+  } catch {
+    btn.disabled = false;
+    btn.textContent = 'Send Message';
+  }
 }
 
 // FAQ toggle
