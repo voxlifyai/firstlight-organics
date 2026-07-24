@@ -8,6 +8,8 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Valid email required' });
   }
 
+  const { tags } = req.body;
+
   const ghlRes = await fetch('https://services.leadconnectorhq.com/contacts/', {
     method: 'POST',
     headers: {
@@ -18,7 +20,7 @@ export default async function handler(req, res) {
     body: JSON.stringify({
       locationId: 'Vggrn9OzkEQBfQV9E895',
       email,
-      tags: ['newsletter']
+      tags: Array.isArray(tags) ? tags : ['newsletter']
     })
   });
 

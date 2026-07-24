@@ -168,6 +168,41 @@ async function handleContact(e) {
   }
 }
 
+// Restock notify
+function notifyClick(btn) {
+  const wrap = btn.closest('.notify-wrap');
+  wrap.innerHTML = `
+    <form onsubmit="handleNotify(event)" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+      <input type="email" placeholder="Your email address" required style="flex:1;min-width:200px">
+      <button type="submit" class="btn btn-gold" style="border:none">Notify Me</button>
+    </form>`;
+}
+
+async function handleNotify(e) {
+  e.preventDefault();
+  const form = e.target;
+  const email = form.querySelector('input[type="email"]').value;
+  const btn = form.querySelector('button');
+  btn.disabled = true;
+  btn.textContent = 'Saving...';
+  try {
+    const res = await fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, tags: ['restock-notify'] })
+    });
+    if (res.ok) {
+      form.closest('.notify-wrap').innerHTML = '<p style="font-size:13px;letter-spacing:0.08em;color:var(--gold)">We\'ll let you know as soon as we restock.</p>';
+    } else {
+      btn.disabled = false;
+      btn.textContent = 'Notify Me';
+    }
+  } catch {
+    btn.disabled = false;
+    btn.textContent = 'Notify Me';
+  }
+}
+
 // FAQ toggle
 function toggleFaq(el) {
   const item = el.closest('.faq-item');
