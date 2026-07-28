@@ -96,6 +96,30 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Notify when available handler
+function notifyClick(btn) {
+  const wrap = btn.closest('.notify-wrap');
+  wrap.innerHTML = `
+    <form class="notify-form" onsubmit="notifySubmit(event)" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:0">
+      <input type="email" placeholder="Your email address" required style="flex:1;min-width:200px;padding:12px 16px;border:1px solid var(--g-dim);background:transparent;font-family:var(--sans);font-size:11px;letter-spacing:0.08em;color:var(--charcoal);outline:none">
+      <button type="submit" class="btn btn-gold" style="border:none">Notify Me</button>
+    </form>`;
+}
+
+async function notifySubmit(e) {
+  e.preventDefault();
+  const form = e.target;
+  const email = form.querySelector('input[type="email"]').value;
+  try {
+    await fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, tag: 'notify' })
+    });
+  } catch {}
+  form.closest('.notify-wrap').innerHTML = '<p style="font-size:13px;letter-spacing:0.08em;color:var(--gold);margin-top:0">Thank you. We\'ll let you know when it\'s ready.</p>';
+}
+
 // Shop "coming soon" handler
 function shopClick(e, name) {
   e.preventDefault();
