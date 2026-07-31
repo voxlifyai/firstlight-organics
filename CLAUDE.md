@@ -108,7 +108,7 @@ Logo images are now transparent. The `.footer-logo-wrap` no longer applies a cre
 ## Product status
 
 **Current products: Lavender, Cedar, Warm Vanilla Whipped Tallow Balm.**
-**Price: $29.00 each** (4 fl oz jar, 2.35 oz net wt)
+**Price: $32.00 each** (4 fl oz jar, 2.35 oz net wt)
 
 To add new scents in the future, add them to shop.html as additional `.product-feature` blocks and update the footer nav under "Shop." Alternate section backgrounds (cream / ivory) to maintain visual rhythm.
 
