@@ -51,6 +51,7 @@ const FOOTER_HTML = `<footer>
           <li><a href="shop.html">Cedar</a></li>
           <li><a href="shop.html">Warm Vanilla</a></li>
           <li><a href="shop.html">Golden Spice</a></li>
+          <li><a href="shop.html">Anti-Aging</a></li>
         </ul>
       </div>
       <div class="footer-col">
