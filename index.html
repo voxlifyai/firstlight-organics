@@ -31,17 +31,94 @@
     <p class="s-label">Five Varieties Available</p>
     <h2 class="s-title">Whipped Tallow Balm</h2>
     <div class="s-rule"><span>&#10022;</span></div>
-    <div class="product-feature">
-      <img src="images/product-hand.png" alt="First Light Lavender Whipped Tallow Balm" class="product-feature-img">
-      <div class="product-feature-info">
-        <p class="product-feature-label">First Light Organics</p>
-        <h3 class="product-feature-name">Lavender</h3>
-        <p class="product-sub">Whipped Tallow Balm</p>
-        <p class="product-size">4 fl oz jar &nbsp;&middot;&nbsp; 2.35 oz net wt &nbsp;&middot;&nbsp; $32.00</p>
-        <p class="product-feature-desc">Grass-fed beef tallow, organic jojoba oil, arrowroot powder, organic lavender and frankincense essential oils. That is the complete list.</p>
-        <div class="notify-wrap" style="margin-top:28px">
-          <button class="btn btn-gold" onclick="notifyClick(this)">Get Notified When Available</button>
+    <div id="productCarousel">
+
+      <div class="product-slide active">
+        <div class="product-feature">
+          <img src="images/product-hand.png" alt="First Light Lavender Whipped Tallow Balm" class="product-feature-img">
+          <div class="product-feature-info">
+            <p class="product-feature-label">First Light Organics</p>
+            <h3 class="product-feature-name">Lavender</h3>
+            <p class="product-sub">Whipped Tallow Balm</p>
+            <p class="product-size">4 fl oz jar &nbsp;&middot;&nbsp; 2.35 oz net wt &nbsp;&middot;&nbsp; $32.00</p>
+            <p class="product-feature-desc">Grass-fed beef tallow, organic jojoba oil, arrowroot powder, organic lavender and frankincense essential oils. That is the complete list.</p>
+            <div class="notify-wrap" style="margin-top:28px">
+              <button class="btn btn-gold" onclick="notifyClick(this)">Get Notified When Available</button>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="product-slide">
+        <div class="product-feature">
+          <img src="images/product-cedar.png" alt="First Light Cedar Whipped Tallow Balm" class="product-feature-img">
+          <div class="product-feature-info">
+            <p class="product-feature-label">First Light Organics</p>
+            <h3 class="product-feature-name">Cedar</h3>
+            <p class="product-sub">Whipped Tallow Balm</p>
+            <p class="product-size">4 fl oz jar &nbsp;&middot;&nbsp; 2.35 oz net wt &nbsp;&middot;&nbsp; $32.00</p>
+            <p class="product-feature-desc">Grass-fed beef tallow, organic jojoba oil, arrowroot powder, cedarwood essential oil. Warm, grounded, and woody. A scent that settles into the skin and stays.</p>
+            <div class="notify-wrap" style="margin-top:28px">
+              <button class="btn btn-gold" onclick="notifyClick(this)">Get Notified When Available</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-slide">
+        <div class="product-feature">
+          <img src="images/product-vanilla.png" alt="First Light Warm Vanilla Whipped Tallow Balm" class="product-feature-img">
+          <div class="product-feature-info">
+            <p class="product-feature-label">First Light Organics</p>
+            <h3 class="product-feature-name">Warm Vanilla</h3>
+            <p class="product-sub">Whipped Tallow Balm</p>
+            <p class="product-size">4 fl oz jar &nbsp;&middot;&nbsp; 2.35 oz net wt &nbsp;&middot;&nbsp; $32.00</p>
+            <p class="product-feature-desc">Grass-fed beef tallow, organic jojoba oil, arrowroot powder, vanilla essential oil. Soft and warm, with a sweetness that feels natural rather than added.</p>
+            <div class="notify-wrap" style="margin-top:28px">
+              <button class="btn btn-gold" onclick="notifyClick(this)">Get Notified When Available</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-slide">
+        <div class="product-feature">
+          <img src="images/product-golden-spice.png" alt="First Light Golden Spice Whipped Tallow Balm" class="product-feature-img">
+          <div class="product-feature-info">
+            <p class="product-feature-label">First Light Organics</p>
+            <h3 class="product-feature-name">Golden Spice</h3>
+            <p class="product-sub">Whipped Tallow Balm</p>
+            <p class="product-size">4 fl oz jar &nbsp;&middot;&nbsp; 2.35 oz net wt &nbsp;&middot;&nbsp; $32.00</p>
+            <p class="product-feature-desc">Grass-fed beef tallow, organic jojoba oil, organic arrowroot powder, and a rich blend of copaiba, coconut CO2, vanilla CO2, cocoa CO2, tamanu oil, tonka bean, organic cardamom, ginger, fir-silver, and organic cinnamon leaf essential oils. Warm, layered, and deeply spiced.</p>
+            <div class="notify-wrap" style="margin-top:28px">
+              <button class="btn btn-gold" onclick="notifyClick(this)">Get Notified When Available</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-slide">
+        <div class="product-feature">
+          <img src="images/product-anti-aging.png" alt="First Light Anti-Aging Whipped Tallow Balm" class="product-feature-img">
+          <div class="product-feature-info">
+            <p class="product-feature-label">First Light Organics</p>
+            <h3 class="product-feature-name">Anti-Aging</h3>
+            <p class="product-sub">Whipped Tallow Balm</p>
+            <p class="product-size">2 oz jar &nbsp;&middot;&nbsp; $25.00</p>
+            <p class="product-feature-desc">Grass-fed beef tallow, organic jojoba oil, organic rosehip seed oil, organic vitamin E, organic frankincense, organic bergamot, bourbon geranium, and organic Roman chamomile. A nourishing blend chosen to support radiant, healthy-looking skin.</p>
+            <div class="notify-wrap" style="margin-top:28px">
+              <button class="btn btn-gold" onclick="notifyClick(this)">Get Notified When Available</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots">
+        <button class="carousel-dot active" onclick="goToSlide(0)" aria-label="Lavender"></button>
+        <button class="carousel-dot" onclick="goToSlide(1)" aria-label="Cedar"></button>
+        <button class="carousel-dot" onclick="goToSlide(2)" aria-label="Warm Vanilla"></button>
+        <button class="carousel-dot" onclick="goToSlide(3)" aria-label="Golden Spice"></button>
+        <button class="carousel-dot" onclick="goToSlide(4)" aria-label="Anti-Aging"></button>
       </div>
     </div>
   </section>
@@ -207,5 +284,29 @@
   </section>
 
   <script src="components.js"></script>
+  <script>
+    (function() {
+      var slides, dots, current = 0, timer;
+      function init() {
+        slides = document.querySelectorAll('#productCarousel .product-slide');
+        dots   = document.querySelectorAll('#carouselDots .carousel-dot');
+        resetTimer();
+      }
+      function goToSlide(n) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = n;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+        resetTimer();
+      }
+      function resetTimer() {
+        clearInterval(timer);
+        timer = setInterval(function(){ goToSlide((current + 1) % slides.length); }, 5000);
+      }
+      window.goToSlide = goToSlide;
+      document.addEventListener('DOMContentLoaded', init);
+    })();
+  </script>
 </body>
 </html>
