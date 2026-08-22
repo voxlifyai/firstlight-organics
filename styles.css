@@ -66,7 +66,8 @@ section{ padding:96px 48px; }
 .page-hero-sub{ font-size:14px; color:var(--charcoal); max-width:520px; margin:0 auto; }
 
 /* ── HERO (home) ── */
-.hero{ display:flex; flex-direction:column; align-items:center; justify-content:center; padding:48px 48px 40px; text-align:center; position:relative; }
+.hero{ display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px 48px 20px; text-align:center; position:relative; }
+.hero .rule{ margin:6px auto; }
 .hero-eyebrow{ font-size:10px; letter-spacing:0.3em; text-transform:uppercase; color:var(--gold); margin-bottom:28px; }
 .hero-title{ font-family:var(--serif); font-size:clamp(54px,8vw,100px); font-weight:300; line-height:0.98; letter-spacing:0.1em; text-transform:uppercase; color:var(--charcoal); }
 .rule{ display:flex; align-items:center; gap:14px; width:fit-content; margin:28px auto; }
