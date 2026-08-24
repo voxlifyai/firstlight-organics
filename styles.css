@@ -52,7 +52,7 @@ nav .nav-links:last-child{ justify-content:flex-end; }
 
 /* ── SHARED SECTION ── */
 section{ padding:96px 48px; }
-.s-label{ font-size:10px; letter-spacing:0.28em; text-transform:uppercase; color:var(--gold); text-align:center; margin-bottom:14px; }
+.s-label{ font-size:10px; letter-spacing:0.28em; text-transform:uppercase; color:var(--charcoal); text-align:center; margin-bottom:14px; }
 .s-title{ font-family:var(--serif); font-size:clamp(26px,3.2vw,40px); font-weight:300; letter-spacing:0.08em; text-transform:uppercase; text-align:center; color:var(--charcoal); margin-bottom:14px; text-wrap:balance; }
 .s-rule{ display:flex; align-items:center; gap:12px; width:fit-content; margin:0 auto 52px; }
 .s-rule::before,.s-rule::after{ content:''; width:32px; height:1px; background:var(--gold); opacity:0.38; }
